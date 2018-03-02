@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		function case1(){
+			console.log(allen)
+			jane()
+			jack()
+			function jane(){
+				console.log('i am jane')
+			}
+			var allen='i am allen'
+			var jack=function(){
+				console.log('i am jack')
+			}
+		}
+
+		function case2(){
+			var allen='i am allen'
+			function allen(){
+				console.log('i am function')
+			}
+			
+			console.log(allen)
+			allen()
+		}
+		case2()
+	</script>
+</body>
+</html>
